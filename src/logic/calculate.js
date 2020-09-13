@@ -20,7 +20,7 @@ const calculate = (data, buttonName) => {
       operation = null;
     }
   }
-
+console.log(total, next)
   return { total, next, operation };
 };
 

@@ -5,7 +5,7 @@ import styles from './Button.module.css';
 
 const Button = ({ name, color, wide, clickHandler }) => (
   <div className={styles.div} style={{ width: wide }}>
-    <button className={styles.button}
+    <button type="button" className={styles.button}
       onClick={() => clickHandler(name)}
       style={{ backgroundColor: color}}
     >

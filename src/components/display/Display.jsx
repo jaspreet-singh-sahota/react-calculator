@@ -5,6 +5,7 @@ import styles from './Display.module.css'
 function Display({ result }) {
   return (
     <div className={styles.display}>
+    {console.log(result)}
       <h1 className={styles.result}>{result}</h1>
     </div>
   )
