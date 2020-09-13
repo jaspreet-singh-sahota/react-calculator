@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './App.module.css';
 import Display from '../display/Display';
 import ButtonPanel from '../button-panel/ButtonPanel';
+/* eslint-disable no-unused-vars */
+import calculate from "../../logic/calculate";
 
 function App() {
   return (

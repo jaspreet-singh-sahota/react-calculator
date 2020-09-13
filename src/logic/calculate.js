@@ -1,3 +1,5 @@
+import operate from "./operate";
+
 const calculate = (data, buttonName) => {
   let { total , next , operation } = data
   const operators = ['+', '-', '/', '*', '%']
