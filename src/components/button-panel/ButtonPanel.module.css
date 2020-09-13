@@ -1,0 +1,22 @@
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {
+  display: flex;
+  background-color: #fe902a;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 6px 6px;
+}
+
+.button-styles {
+  color: #dfdfdf;
+}
+
+.button-styles :hover {
+  color: #777;
+}
