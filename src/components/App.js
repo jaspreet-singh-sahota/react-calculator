@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <h1 className="title">Calculator App</h1>
-      <Display/>
-      <ButtonPanel/>
+      <Display />
+      <ButtonPanel />
     </div>
   );
 }
