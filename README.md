@@ -56,7 +56,7 @@ Calculator App built with React using big.js library.
 
 ## Live Link (Heroku)
 
-[Click here to play the game](https://jassi-calculator-app.herokuapp.com/)
+[Click here](https://jassi-calculator-app.herokuapp.com/)
 
 <!-- INSTALLATION -->
 
