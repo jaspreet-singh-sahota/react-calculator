@@ -17,13 +17,18 @@ export default class App extends Component {
       operation: null
     }
   }
+
+  handleClick = (buttonName) => (
+    this.setState(data => calculate(data, buttonName))
+  )
+
   render() {
     return (
       <div className={styles.container}>
         <h1 className={styles.title}>Calculator App</h1>
         <div className={styles.app}>
           <Display />
-          <ButtonPanel />
+          <ButtonPanel clickHandler={this.handleClick} />
         </div>
       </div>
     );
