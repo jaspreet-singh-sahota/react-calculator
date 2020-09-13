@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="git@github.com:jaspreet-singh-sahota/react-calculator.git">
-    <p align="center"> <img src="https://user-images.githubusercontent.com/55361440/90889552-05eac580-e3d6-11ea-929e-600d7bbedbac.png" alt="Naruto Shooting Game" width="125" height="150"> </p>
+    <p align="center"> <img src="https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png" alt="React-logo" width="150" height="150"> </p>
   </a>
 
   <h2 align="center">Calculator App</h2>
