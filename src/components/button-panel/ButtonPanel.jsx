@@ -30,7 +30,7 @@ function ButtonPanel({ clickHandler }) {
         <Button clickHandler={clickHandler} name="+" />
       </div>
       <div className={styles.group5}>
-        <Button clickHandler={clickHandler} name="0" color={'#dfdfdf'} wide={100}/>
+        <Button clickHandler={clickHandler} name="0" color={'#dfdfdf'} wide={'50%'}/>
         <Button clickHandler={clickHandler} name="." color={'#dfdfdf'} />
         <Button clickHandler={clickHandler} name="=" />
       </div>
