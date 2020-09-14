@@ -15,17 +15,16 @@ export default class App extends Component {
     }
   }
 
-  handleClick = (buttonName) => {
-    console.log(buttonName)
+  handleClick = (buttonName) => (
     this.setState(data => calculate(data, buttonName))
-}
+  )
 
   render() {
     const { total, next } = this.state;
     const result = next || total;
+    
     return (
       <div className={styles.container}>
-      {console.log(result)}
         <h1 className={styles.title}>Calculator App</h1>
         <div className={styles.app}>
           <Display result={result} />
