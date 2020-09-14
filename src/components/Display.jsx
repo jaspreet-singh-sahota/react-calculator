@@ -14,7 +14,7 @@ Display.prototype = {
 };
 
 Display.defaultProps = {
-  result: 0,
+  result: '0',
 };
 
 export default Display;
