@@ -11,17 +11,18 @@ export default class App extends Component {
     this.state = {
       total: null,
       next: null,
-      operation: null
+      operation: null,
+      previousOperation: null,
     }
   }
 
   handleClick = (buttonName) => (
-    this.setState(data => calculate(data, buttonName))
+    this.setState(prevState => calculate(prevState, buttonName))
   )
 
   render() {
     const { total, next } = this.state;
-    const result = next || total;
+    const result = next || total || '0';
     
     return (
       <div className={styles.container}>
