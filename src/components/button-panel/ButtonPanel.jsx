@@ -2,37 +2,37 @@ import React from 'react';
 import Button from '../button/Button';
 import styles from './ButtonPanel.module.css'
 
-function ButtonPanel() {
+function ButtonPanel({ clickHandler }) {
   return (
     <div className={styles.panel}>
       <div className={styles.group1}>
-        <Button name="AC" color={'#dfdfdf'} />
-        <Button name="+/-" color={'#dfdfdf'} />
-        <Button name="%" color={'#dfdfdf'} />
-        <Button name="÷" />
+        <Button clickHandler={clickHandler} name="AC" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="+/-" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="%" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="÷" />
       </div>
       <div className={styles.group2}>
-        <Button name="7" color={'#dfdfdf'} />
-        <Button name="8" color={'#dfdfdf'} />
-        <Button name="9" color={'#dfdfdf'} />
-        <Button name="X" />
+        <Button clickHandler={clickHandler} name="7" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="8" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="9" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="X" />
       </div>
       <div className={styles.group3}>
-        <Button name="4" color={'#dfdfdf'} />
-        <Button name="5" color={'#dfdfdf'} />
-        <Button name="6" color={'#dfdfdf'} />
-        <Button name="-" />
+        <Button clickHandler={clickHandler} name="4" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="5" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="6" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="-" />
       </div>
       <div className={styles.group4}>
-        <Button name="1" color={'#dfdfdf'} />
-        <Button name="2" color={'#dfdfdf'} />
-        <Button name="3" color={'#dfdfdf'} />
-        <Button name="+" />
+        <Button clickHandler={clickHandler} name="1" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="2" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="3" color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="+" />
       </div>
       <div className={styles.group5}>
-        <Button name="0" color={'#dfdfdf'} wide={100}/>
-        <Button name="." color={'#dfdfdf'} />
-        <Button name="=" />
+        <Button clickHandler={clickHandler} name="0" color={'#dfdfdf'} wide={'50%'}/>
+        <Button clickHandler={clickHandler} name="." color={'#dfdfdf'} />
+        <Button clickHandler={clickHandler} name="=" />
       </div>
     </div>
   )

@@ -11,11 +11,11 @@ function Display({ result }) {
 };
 
 Display.prototype = {
-  name: PropTypes.String
+  result: PropTypes.string
 };
 
 Display.defaultProps = {
-  result: 0,
+  result: '0'
 };
 
 export default Display;

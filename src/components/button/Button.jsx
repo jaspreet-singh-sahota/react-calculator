@@ -3,24 +3,26 @@ import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
 
-const Button = ({ name, color, wide }) => (
-  <div
-    className={styles.button}
-    style={{ backgroundColor: color, width: wide ? '50%' : '25%' }}
-  >
-    {name}
+const Button = ({ name, color, wide, clickHandler }) => (
+  <div className={styles.div} style={{ width: wide }}>
+    <button type="button" className={styles.button}
+      onClick={() => clickHandler(name)}
+      style={{ backgroundColor: color}}
+    >
+      {name}
+    </button>
   </div>
 );
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   color: PropTypes.string,
-  wide: PropTypes.bool,
+  wide: PropTypes.string,
 };
 
 Button.defaultProps = {
   color: '#fe902a',
-  wide: false,
+  wide: '25%',
 };
 
 export default Button;
