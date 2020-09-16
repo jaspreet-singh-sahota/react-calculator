@@ -103,6 +103,12 @@ const calculate = (data, buttonName) => {
       if (!next.includes(buttonName)) {
         next += buttonName;
       }
+    } else if (total !== '0') {
+      if (!total.includes(buttonName)) {
+        total += buttonName;
+        next = total
+        total = '0'
+      }
     } else {
       next = '0.';
     }
