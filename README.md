@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="git@github.com:jaspreet-singh-sahota/react-calculator.git">
-    <p align="center"> <img src="https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png" alt="React-logo" width="150" height="150"> </p>
+    <p align="center"> <img src="https://st3.depositphotos.com/9034578/17519/v/450/depositphotos_175195562-stock-illustration-miner-cute-calculator-character-cartoon.jpg" alt="React-logo" width="150" height="150"> </p>
   </a>
 
   <h2 align="center">Calculator App</h2>
@@ -50,7 +50,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Calculator App built with React using big.js library.
+Basic Calculator App built with React using big.js library.
+
+![Screenshot from 2020-09-16 06-14-52](https://user-images.githubusercontent.com/55361440/93279184-390d5280-f7e4-11ea-806a-7bfa14a26a7f.png)
 
 <!-- Live Link (Netlify) -->
 
