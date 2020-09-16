@@ -106,8 +106,8 @@ const calculate = (data, buttonName) => {
     } else if (total !== '0') {
       if (!total.includes(buttonName)) {
         total += buttonName;
-        next = total
-        total = '0'
+        next = total;
+        total = '0';
       }
     } else {
       next = '0.';
